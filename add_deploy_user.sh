@@ -19,6 +19,9 @@ usermod -aG sudo deploy
 # change default shell
 usermod -s /bin/bash deploy
 
+# add .vimrc from template
+cp -r ./deploy/.vim* /home/deploy/
+
 # finish
 echo "======> init ok"
 
