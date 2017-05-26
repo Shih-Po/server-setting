@@ -1,3 +1,6 @@
+# set timzone
+timedatectl set-timezone Asia/Taipei
+
 ## add deploy user
 ## ex: sudo sh add_deploy_user.sh
 
@@ -18,7 +21,6 @@ usermod -s /bin/bash deploy
 
 # finish
 echo "======> init ok"
-
 
 
 
